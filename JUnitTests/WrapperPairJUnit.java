@@ -1,9 +1,7 @@
 package JUnitTests;
 
 import static org.junit.Assert.*;
-
 import org.junit.Test;
-
 import wrapper_classes.Palindrome;
 import wrapper_classes.WrapperPair;
 
