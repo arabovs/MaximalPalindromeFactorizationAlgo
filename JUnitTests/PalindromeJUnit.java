@@ -1,9 +1,7 @@
 package JUnitTests;
 
 import static org.junit.Assert.*;
-
 import org.junit.Test;
-
 import wrapper_classes.Palindrome;
 
 public class PalindromeJUnit extends Palindrome{
@@ -25,13 +23,6 @@ public class PalindromeJUnit extends Palindrome{
 		assertEquals(12,x.center);
 		assertEquals("abbabba",x.s);
 		assertEquals(4,x.getRadius());
-	//	x.setXY();
-	//	assertEquals(9,x.x);
-	//	assertEquals(15,x.y);
-		
+
 	}
-
-	
-	
-
 }
