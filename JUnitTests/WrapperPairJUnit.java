@@ -26,7 +26,4 @@ public class WrapperPairJUnit extends WrapperPair {
 		assertEquals(x.s,pair.getPal1().s);
 		assertEquals(y.s,pair.getPal2().s);
 	}
-	
-	
-	
 }
