@@ -1,9 +1,7 @@
 package JUnitTests;
 
 import static org.junit.Assert.*;
-
 import org.junit.Test;
-
 import wrapper_classes.WrapperSet;
 
 public class WrapperSetJUnit extends WrapperSet {
@@ -45,5 +43,4 @@ public class WrapperSetJUnit extends WrapperSet {
 		assertTrue(set.contains(215));
 		assertFalse(set.isEmpty());
 	}
-
 }
